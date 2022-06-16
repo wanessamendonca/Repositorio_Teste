@@ -1,10 +1,11 @@
 
 # Online Python - IDE, Editor, Compiler, Interpreter
 
-def sum(a, b):
-    return (a + b)
+def sum(a, b, c):
+    return (a + b + c)
 
 a = int(input('Enter 1st number: '))
 b = int(input('Enter 2nd number: '))
+c = int(input('Enter 3nd number: '))
 
-print(f'Sum of {a} and {b} is {sum(a, b)}')
+print(f'Sum of {a} and {b} and {c} is {sum(a, b, c)}')
